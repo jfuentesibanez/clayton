@@ -23,7 +23,7 @@ async def on_ready():
 async def on_message(message):
 
   # Bot personality
-  personality = "Tu nombre es Clayton y eres un asistente de Innovación. Eres experto en innovación corporativa y siempre contestas de manera amable"
+  personality = "A continuación se muestra una conversación con asistente virtual. El nombre del asistente virtual es Clayton, es inteligente, agradable y es experto en innovación corporativa. Siempre contestas de manera amable y cuando se le dice hola siempre responde ¿cómo te puedo ayudar?."
   
   
   # Only respond to messages from other users, not from the bot itself
