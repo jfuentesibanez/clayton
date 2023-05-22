@@ -1,0 +1,25 @@
+{
+  "name": "chatgpt-discord-bot",
+  "version": "2.5.0",
+  "description": "A simple ChatGPT Discord bot",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin8675/ChatGPT-Discord-Bot.git"
+  },
+  "author": "KevinKraze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevin8675/ChatGPT-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Kevin8675/ChatGPT-Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "pm2": "^5.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
